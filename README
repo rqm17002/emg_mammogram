@@ -1,1 +1,22 @@
-README
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+EMG DATA FILES - MAMMOGRAM PADDLE PROCEDURE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+This repo contains files for 25 subjects as they completed two sequential 4-compression mammogram protocols (along with 3 controls)
+For each subject, there are 11 files, each corresponding to the 8 compressions and 3 controls
+
+  PXX indicated the subject number
+  C1 - control 1 in a large room without mammo machine
+  C2 - control 2 in the small room with the mammo machine, prior to any compressions
+  C3 - control 3 in the small room with the mammo machine, after the first 4 compressions, before the second set of 4 compressions
+  FP1 - compression with the flat paddle - LMO
+  FP2 - compression with the flat paddle - RMO
+  FP3 - compression with the flat paddle - RMLO
+  FP4 - compression with the flat paddle - LMLO
+  CP1 - compression with the curved paddle - LMO
+  CP2 - compression with the curved paddle - RMO
+  CP3 - compression with the curved paddle - RMLO
+  CP4 - compression with the curved paddle - LMLO
+
+The .csv is the raw output from the data acquisition software for all of the muscles of interest (labels in row63). Note different fs for specfic sensors.
+
